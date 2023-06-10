@@ -16,10 +16,10 @@ hdev_sms::api_id("Your Api ID");
 hdev_sms::api_key("Your Api Key");
 $msg = hdev_sms::send("SENDER ID","TELL","MESSAGE");
 
-var_dump($sms);//to get sms server response
+var_dump($msg);//to get sms server response
 ```
 
-# TOP UP 
+# TOP UP/ Add amount to account 
 ```php
 include 'sms_parse.php';
 
