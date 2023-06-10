@@ -25,9 +25,9 @@ include 'sms_parse.php';
 
 //TOP UP
 
-hdev_payment::api_id("Your Api ID");
-hdev_payment::api_key("Your Api Key");
-$result = hdev_payment::topup($tel,$amount);
+hdev_sms::api_id("Your Api ID");
+hdev_sms::api_key("Your Api Key");
+$result = hdev_sms::topup($tel,$amount);
 
 var_dump($result);//to get sms server response
 ```
