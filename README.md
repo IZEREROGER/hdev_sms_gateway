@@ -1,7 +1,7 @@
 
 # HDEV SMS GATEWAY
 
-### HADEV SMS. MIT license.
+### HDEV SMS. MIT license.
 
 Use from a PHP script:
 
